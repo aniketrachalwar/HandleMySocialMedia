@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This line sets the title that appears in the browser tab. You can change this text. -->
+    <title>Handle My Social Media</title>
+    <!-- This line adds the megaphone icon that appears in the browser tab, also known as a favicon. -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236B46C1'%3E%3Cpath d='M18 10h-2V6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v4H4c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h2v4c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-4h2c1.1 0 2-.9 2-2v-2c0-1.1-.9-2-2-2zM8 18v-4h6v4H8z'/%3E%3C/svg%3E" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 flex flex-col min-h-screen">
+
+    <!-- This is the navigation bar. It appears on all pages for easy site navigation. -->
+    <nav class="w-full max-w-5xl mx-auto flex items-center justify-between p-4 mb-8 bg-white rounded-full shadow-lg">
+        <!-- Brand Name/Logo - Clicks back to the homepage. -->
+        <a href="index.html" class="font-bold text-lg md:text-xl text-indigo-600">Handle My Social Media</a>
+        <!-- Navigation Links -->
+        <ul class="flex space-x-4 md:space-x-6">
+            <li><a href="services.html" class="text-gray-700 hover:text-indigo-600 font-medium transition duration-300">Services</a></li>
+            <li><a href="blog.html" class="text-gray-700 hover:text-indigo-600 font-medium transition duration-300">Blog</a></li>
+            <li><a href="contact.html" class="text-gray-700 hover:text-indigo-600 font-medium transition duration-300">Contact Us</a></li>
+            <li><a href="about_founder.html" class="text-gray-700 hover:text-indigo-600 font-medium transition duration-300">About Founder</a></li>
+        </ul>
+    </nav>
+
+    <!-- This is the main container for the homepage content, keeping it centered and readable. -->
+    <div class="bg-white rounded-3xl shadow-xl max-w-5xl mx-auto p-8 md:p-12 transition-all duration-300 flex-grow flex flex-col items-center">
+        <!-- This is a placeholder for your company's logo. You can replace the URL with your own image. -->
+        <img src="C:\Users\Vidhansh Rachalwar\OneDrive\Music\Desktop\About Me\HMSM\business_logo.png" alt="Company Logo" class="w-24 h-24 md:w-32 md:h-32 rounded-full shadow-lg mb-8">
+        
+        <!-- Main title for the page. You can change this text. -->
+        <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6">Welcome to Handle My Social Media</h1>
+        
+        <!-- This is the explanatory section about your business. You can edit all the text here. -->
+        <div class="prose max-w-none text-center">
+            <p class="text-lg text-gray-700 mb-6">
+                At Handle My Social Media, we go beyond just posting content. We are a team of social media experts dedicated to crafting a unique and effective strategy for your brand. Whether you are an individual influencer, a small business, or a large corporation, our mission is to empower you with professional social media management that builds your authority, engages your audience, and drives real results.
+            </p>
+            <p class="text-lg text-gray-700 mb-6">
+                Our services include everything from profile management and content creation to paid advertising and in-depth analytics. We provide a comprehensive, data-driven approach to ensure every post and campaign aligns with your business goals.
+            </p>
+        </div>
+
+        <!-- This section directs users to the Contact Us page. -->
+        <div class="mt-8 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Ready to Grow Your Brand?</h2>
+            <p class="text-lg text-gray-700 mb-6">
+                To connect with us and discuss how we can help your brand succeed, please visit our **Contact Us** page. We look forward to hearing from you!
+            </p>
+            <!-- This is the "Contact Us" button, linking to your contact page. -->
+            <a href="contact.html" class="inline-block bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300">
+                Contact Us
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer Section - Remains at the bottom of the page. -->
+    <footer class="mt-8 text-center text-sm text-gray-500">
+        <!-- You can change this copyright message. -->
+        <p>All rights are reserved to Handle My Social Media</p>
+    </footer>
+</body>
+</html>
