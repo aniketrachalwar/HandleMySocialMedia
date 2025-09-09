@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This line sets the title that appears in the browser tab. You can change this text. -->
+    <title>Services - Handle My Social Media</title>
+    <!-- This line adds the megaphone icon that appears in the browser tab, also known as a favicon. -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236B46C1'%3E%3Cpath d='M18 10h-2V6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v4H4c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h2v4c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-4h2c1.1 0 2-.9 2-2v-2c0-1.1-.9-2-2-2zM8 18v-4h6v4H8z'/%3E%3C/svg%3E" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <!-- This is the main container for the services content, which keeps it centered and readable. -->
+    <div class="bg-white rounded-3xl shadow-xl max-w-4xl mx-auto p-8 md:p-12 transition-all duration-300">
+        
+        <!-- Main Header Section -->
+        <header class="text-center mb-12">
+            <!-- You can change the main title of the page here. -->
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Our Services</h1>
+            <!-- You can change the introductory text here. -->
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                We offer a full suite of social media solutions designed to meet your unique needs and help your brand grow.
+            </p>
+        </header>
+
+        <!-- Services Grid - This section arranges all the service boxes. -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Service Box 1: Profile Management -->
+            <div class="bg-gray-50 rounded-2xl p-6 text-center">
+                <!-- SVG Icon for Profile Management -->
+                <!-- You can replace this icon with another SVG if you wish. -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto mb-4 text-indigo-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <!-- Change the title of this service here. -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Profile Management</h2>
+                <!-- Change the description of this service here. -->
+                <p class="text-gray-700">
+                    We handle the day-to-day operations of your social media profiles, from scheduling posts to engaging with your audience to build a strong, active community.
+                </p>
+            </div>
+
+            <!-- Service Box 2: Brand/Business Campaigns -->
+            <div class="bg-indigo-100 rounded-2xl p-6 text-center">
+                <!-- SVG Icon for Campaigns -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto mb-4 text-indigo-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 20h16A2 2 0 0 0 22 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"></path>
+                    <path d="M12 2v20"></path>
+                    <path d="M17 6h-3"></path>
+                    <path d="M17 10h-3"></path>
+                    <path d="M17 14h-3"></path>
+                    <path d="M10 6H7"></path>
+                    <path d="M10 10H7"></path>
+                    <path d="M10 14H7"></path>
+                </svg>
+                <!-- Change the title of this service here. -->
+                <h2 class="text-xl font-semibold text-indigo-800 mb-2">Brand & Business Campaigns</h2>
+                <!-- Change the description of this service here. -->
+                <p class="text-indigo-700">
+                    From concept to launch, we design and execute comprehensive social media campaigns that drive awareness, engagement, and customer acquisition.
+                </p>
+            </div>
+
+            <!-- Service Box 3: Paid Advertising -->
+            <div class="bg-gray-50 rounded-2xl p-6 text-center">
+                <!-- SVG Icon for Paid Advertising -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto mb-4 text-indigo-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+                <!-- Change the title of this service here. -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Paid Advertising</h2>
+                <!-- Change the description of this service here. -->
+                <p class="text-gray-700">
+                    We manage targeted social media ad campaigns on all major platforms to reach your ideal audience and maximize your return on investment.
+                </p>
+            </div>
+            
+            <!-- Service Box 4: Content Creation -->
+            <div class="bg-indigo-100 rounded-2xl p-6 text-center">
+                <!-- SVG Icon for Content Creation -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto mb-4 text-indigo-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="12" y1="18" x2="12" y2="12"></line>
+                    <line x1="9" y1="15" x2="15" y2="15"></line>
+                </svg>
+                <!-- Change the title of this service here. -->
+                <h2 class="text-xl font-semibold text-indigo-800 mb-2">Content Creation</h2>
+                <!-- Change the description of this service here. -->
+                <p class="text-indigo-700">
+                    From eye-catching graphics and short videos to compelling written copy, we create all the content you need to keep your channels fresh and engaging.
+                </p>
+            </div>
+
+            <!-- Service Box 5: Analytics -->
+            <div class="bg-gray-50 rounded-2xl p-6 text-center">
+                <!-- SVG Icon for Analytics -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto mb-4 text-indigo-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="20" x2="12" y2="10"></line>
+                    <line x1="18" y1="20" x2="18" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="16"></line>
+                </svg>
+                <!-- Change the title of this service here. -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Analytics</h2>
+                <!-- Change the description of this service here. -->
+                <p class="text-gray-700">
+                    We provide in-depth reporting and analysis of your social media performance to help you understand what's working and how to improve your strategy.
+                </p>
+            </div>
+            
+        </div>
+
+        <!-- Call-to-Action Section -->
+        <div class="mt-12 text-center bg-indigo-50 rounded-2xl p-8">
+            <!-- You can change this heading. -->
+            <h2 class="text-2xl font-bold text-indigo-900 mb-4">Ready to Grow Your Brand?</h2>
+            <!-- You can change this paragraph. -->
+            <p class="text-gray-700 mb-6">
+                Our services are tailored to your unique goals. Contact us today for a free consultation and personalized quote.
+            </p>
+            <!-- This button can be linked to your contact page. The file name is "contact.html". -->
+            <a href="contact.html" class="inline-block bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300">
+                Contact for a Quote
+            </a>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="mt-10 text-center text-sm text-gray-500">
+            <!-- You can change this copyright message. -->
+            <p>All rights are reserved to Handle My Social Media</p>
+        </footer>
+    </div>
+</body>
+</html>
